@@ -1,0 +1,83 @@
+{
+  "nav": {
+    "pricing": "Pricing",
+    "about": "About",
+    "courses": "Courses",
+    "studentPortal": "Student Portal",
+    "parentPortal": "Parent Portal",
+    "adminLogin": "Admin Login"
+  },
+  "home": {
+    "tagline": "Smart learning for Bangladesh",
+    "headline": "Learn better with guided lessons, quizzes and motivation.",
+    "subtitle": "A complete platform for school to university admission preparation.",
+    "startNow": "Start Learning",
+    "freeTrial": "Try for Free",
+    "encourage": "You're doing great — ছোট ছোট করে এগিয়ে যাও!",
+    "tailoredTitle": "Tailored for every level",
+    "levels": {
+      "primary": {"title": "Primary", "desc": "Strong foundations with interactive basics."},
+      "secondary": {"title": "Secondary / SSC / HSC", "desc": "Exam-focused practice and chapter mastery."},
+      "university": {"title": "University Admission", "desc": "Targeted prep with model tests and analytics."}
+    },
+    "stepsTitle": "Start learning in 3 easy steps",
+    "steps": {
+      "1": "Pick your class and subject",
+      "2": "Study short lessons",
+      "3": "Practice quizzes daily"
+    },
+    "pricingTitle": "Simple pricing",
+    "pricing": {
+      "basic": {"title": "Basic", "price": "৳299/mo", "desc": "Core lessons for one level"},
+      "pro": {"title": "Pro", "price": "৳699/mo", "desc": "All levels + unlimited quizzes"},
+      "premium": {"title": "Premium", "price": "৳999/mo", "desc": "Mentor support + advanced analytics"}
+    },
+    "choosePlan": "Choose plan"
+  },
+  "auth": {
+    "login": {
+      "title": "Welcome back",
+      "subtitle": "Login to continue learning",
+      "email": "Email",
+      "password": "Password",
+      "remember": "Remember me",
+      "forgot": "Forgot password?",
+      "submit": "Login",
+      "new": "New to the platform?",
+      "register": "Create account",
+      "errors": {
+        "email": "Enter a valid email.",
+        "password": "Password must be at least 6 characters."
+      }
+    },
+    "register": {
+      "title": "Create your account",
+      "subtitle": "Start your personalized learning journey",
+      "name": "Full name",
+      "email": "Email",
+      "password": "Password",
+      "confirmPassword": "Confirm password",
+      "role": "Choose role",
+      "student": "Student",
+      "parent": "Parent",
+      "agree": "I agree to the terms and conditions",
+      "submit": "Create account",
+      "haveAccount": "Already have an account?",
+      "login": "Login",
+      "errors": {
+        "name": "Name must be at least 3 characters.",
+        "email": "Enter a valid email.",
+        "password": "Password must be at least 6 characters.",
+        "confirmPassword": "Passwords must match.",
+        "role": "Please choose a role.",
+        "agree": "You must agree before continuing."
+      }
+    }
+  },
+  "courses": {"title": "Choose your grade and subject"},
+  "level": {
+    "hero": "Build confidence with step-by-step lessons and quizzes.",
+    "encourage": "You're doing great — ছোট ছোট করে এগিয়ে যাও!",
+    "viewSubject": "View"
+  }
+}
