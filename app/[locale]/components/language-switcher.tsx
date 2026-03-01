@@ -5,7 +5,7 @@ import {usePathname} from 'next/navigation';
 import {locales} from '@/i18n/routing';
 import {Button} from '@/components/ui/button';
 
-export function LanguageSwitcher() {
+export function LanguageSwitcher({locale}: {locale: string}) {
   const pathname = usePathname();
 
   const getPathForLocale = (locale: string) => {
@@ -22,14 +22,11 @@ export function LanguageSwitcher() {
     return `/${locale}${pathname}`;
   };
 
+  const nextLocale = locale === 'en' ? 'de' : 'en';
+
   return (
-    <div className="flex items-center gap-2">
-      <Button asChild variant="ghost" size="sm">
-        <Link href={getPathForLocale('bn')}>BN</Link>
-      </Button>
-      <Button asChild variant="ghost" size="sm">
-        <Link href={getPathForLocale('en')}>EN</Link>
-      </Button>
-    </div>
+    <Button asChild variant="ghost" size="sm">
+      <Link href={getPathForLocale(nextLocale)}>{nextLocale.toUpperCase()}</Link>
+    </Button>
   );
 }

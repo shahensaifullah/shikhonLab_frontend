@@ -23,7 +23,7 @@ export function Navbar({locale}: {locale: string}) {
           <Link href={`/${locale}/courses`} className="text-sm font-medium hover:text-primary">{t('courses')}</Link>
         </nav>
         <div className="flex items-center gap-2">
-          <LanguageSwitcher />
+          <LanguageSwitcher locale={locale} />
           <ThemeToggle />
           <Button asChild variant="outline" size="sm"><Link href={`/${locale}/auth/login`}>{t('studentPortal')}</Link></Button>
           <Button asChild variant="outline" size="sm"><Link href={`/${locale}/auth/register`}>{t('parentPortal')}</Link></Button>
