@@ -6,6 +6,7 @@ export default function createMiddleware({
 }: {
   locales: readonly string[];
   defaultLocale: string;
+  localePrefix?: 'always' | 'as-needed' | 'never';
 }) {
   return function middleware(request: NextRequest) {
     const {pathname} = request.nextUrl;

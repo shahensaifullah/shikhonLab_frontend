@@ -2,7 +2,7 @@
 
 import {createContext, ReactNode, useContext} from 'react';
 
-type NestedMessages = {[key: string]: string | NestedMessages};
+export type NestedMessages = {[key: string]: string | NestedMessages};
 
 const IntlContext = createContext<{locale: string; messages: NestedMessages}>({
   locale: 'bn',

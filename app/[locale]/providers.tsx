@@ -1,7 +1,7 @@
 'use client';
 
 import {ThemeProvider} from 'next-themes';
-import {NextIntlClientProvider} from 'next-intl';
+import {NextIntlClientProvider, type NestedMessages} from 'next-intl';
 import {ReactNode} from 'react';
 
 export function Providers({
@@ -11,7 +11,7 @@ export function Providers({
 }: {
   children: ReactNode;
   locale: string;
-  messages: Record<string, unknown>;
+  messages: NestedMessages;
 }) {
   return (
     <ThemeProvider attribute="class" defaultTheme="system" enableSystem>
